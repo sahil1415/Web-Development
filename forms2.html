@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form>
+        <label for="name">Name:</label></br>
+        <input type="text" id="name" name="name"></br>
+
+        <label for="email">Email:</label></br>
+        <input type="email" id="email" name="name"></br>
+
+        <label for="phone">Phone:</label></br>
+        <input type="tel" id="phone" name="phone"></br>
+
+        <label for="resume">Resume:</label></br>
+        <input type="file" id="resume" name="name"></br></br>
+
+        <label for="experience">Experience:</label>
+        <input type="number" id="experience" name="experience" min="0" max="20"></br>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="s1">C</label>
+            <input type="checkbox" id="s1" name="s1"></br>
+
+            <label for="s2">C++</label>
+            <input type="checkbox" id="s2" name="s2"></br>
+
+            <label for="s3">Java</label>
+            <input type="checkbox" id="s3" name="s3"></br>
+
+            <label for="s4">Python</label>
+            <input type="checkbox" id="s4" name="s4"></br>
+
+            <label for="s5">DSA</label>
+            <input type="checkbox" id="s5" name="s5"></br>
+        </fieldset> </br>
+
+        <label for="education">Higer Education:</label></br>
+        <select id="education" name="education">
+            <option>Masters</option>            
+            <option>Graduation</option>            
+            <option>Intermediate</option>            
+            <option>Matriculaton</option>            
+        </select></br></br>
+
+        <label for="available">Availability:</label></br>
+
+        <!-- To check the radio button only one at a time group 
+         them togrther by giving them the same name -->
+         
+        <label for="r1">Part-time</label></br>
+        <input type="radio" id="r1" name="available"></br>
+
+        <label for="r2">Full-time</label></br>
+        <input type="radio" id="r2" name="available"></br>
+    </form>
+
+    <label for="textArea">Additional Comments:</label></br>
+    <textarea id="textArea" name="textArea" placeholder="Any thoughts submit here!!!" rows="10" cols="20"></textarea>
+</body>
+</html>

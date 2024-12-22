@@ -1,0 +1,19 @@
+P{
+    background-color: blueviolet;
+    color: rgb(239, 132, 0);
+}
+
+#paragraph1{
+    background-color: rgb(207, 156, 120);
+    color: chartreuse;
+}
+
+.paragraph2{
+    background-color: brown;
+    color: aquamarine;
+}
+
+h1,h2{
+    color: cadetblue;
+    align-content: center;
+}
