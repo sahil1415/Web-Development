@@ -1,0 +1,39 @@
+/* Element Selector */
+p{
+    font-family: cursive;
+    font-size: larger;
+    font-weight: 1000px;
+    font-size: 100x;
+}
+/* Group Selector */
+h1,h2{
+    color: rgb(25, 77, 208);
+    align-content: center;
+}
+
+/* Id selector */
+/* color by name */
+#paragraph1{
+    background-color: yellow;
+    color: brown;
+}
+/* class selector */
+/* color by rgb */
+.paragraph2{
+    background-color: rgb(46, 242, 137);
+    color: rgb(228, 23, 217);
+}
+/* color by rgba */
+.paragraph3{
+    background-color: rgb(182, 29, 29);
+    color: rgb(17, 51, 186);
+}
+/* Color by hexadecimal value */
+.paragraph4{
+    background-color: #fc03f4;
+    color: #f7a80a;
+}
+/* colour bu hsl value */
+.paragraph5{
+    background-color: hsl(111 100% 65%);
+}

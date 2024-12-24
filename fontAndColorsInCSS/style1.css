@@ -1,0 +1,22 @@
+/* P{
+    background-color: blueviolet;
+    color: rgb(239, 132, 0);
+} */
+
+#paragraph1{
+    font-size: 20px;  /* text size */
+    font-style: italic; /* text type */
+    font-family: "Playwrite CO Guides", serif;
+    /* font-family: 'cursive', 'Times New Roman', Times, serif; text style */
+    font-weight: 200; /* depth of text */
+}
+
+.paragraph2{
+    background-color: brown;
+    color: aquamarine;
+}
+
+h1,h2{
+    color: cadetblue;
+    align-content: center;
+}
