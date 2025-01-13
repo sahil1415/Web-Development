@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    background-color: yellow;
+    /*Creates border all around*/
+    /* border-style: solid;
+    border-width: 4px;
+    border-color: crimson; */
+    border: solid crimson 4px;
+    width: 250px;
+    
+    /* Curves the border corner*/ 
+    border-radius: 5px;
+
+    /* particular corner is curved*/
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    /* border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+
+    
+}
+#paragraph1{
+    font-size: 30px;
+    background-color: hsl(197, 96%, 59%);
+    width: 500px;
+    /*Box Model*/
+    border: solid black 4px;
+    padding: 10px;
+    margin: 10px;
+
+}
+#paragraph1{
+    font-size: 30px;
+    background-color: hsl(197, 96%, 59%);
+    border: solid black 4px;
+    /* creates a border in a specific direction*/
+    /* border-bottom:solid crimson 4px;
+    border-top: dotted crimson;
+    border-left: solid crimson;
+    border-right: dashed crimson; */
+    /* width: 1000px; */
+    border-radius: 5px;
+}
+
+.paragraph2{
+    font-size: 30px;
+    background-color: hsl(302, 96%, 59%);
+    width: 500px;
+    border-radius: 5px;
+
+    /*Box Model*/
+    border: solid rgb(0, 0, 0) 4px;
+    /* padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px; */
+    /* padding: 10px 20px 10px 20px; Top -> Right -> Bottom -> Down*/
+    padding: 10px 20px; /*x-axis and y-axis*/
+    /* margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px; */
+    margin: 80px 80px;
+
+}
+.paragraph3{
+    font-size: 30px;
+    border: solid rgb(0, 0, 0) 4px;
+    /* width: 1000px; */
+    border-radius: 5px;
+}
+.paragraph4{
+    font-size: 30px;
+    border: solid rgb(0, 0, 0) 4px;
+    /* width: 1000px; */
+    border-radius: 5px;
+
+}
+span{
+    /*We cannot directly apply width and height to a <span> tag because 
+    <span> is an inline element by default. Inline elements are meant to 
+    flow with the text and content around them, and as such, they do not 
+    accept width and height properties in normal circumstances.*/
+    background-color: rgb(234, 154, 56);
+    border-radius: 5px;
+    font-size: 30px;
+    border:solid black 5px;
+}
