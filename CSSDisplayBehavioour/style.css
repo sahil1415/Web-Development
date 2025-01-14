@@ -1,0 +1,33 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*If we add any border or margin the dimensions will not add up to the final box size and will remain constant
+    by shrinking the content size */
+}
+div {
+    border: 3px solid crimson;
+    width: 800px;
+    height: 200px;
+    font-size: 50px;
+    /*Box Model*/
+    padding: 5px;
+    margin: 5px;
+}
+
+.box{
+    width: 800px;
+    height: 200px;
+    border: 5px solid crimson;
+    margin: 10px;
+}
+
+.spot{
+    font-size: 20px;
+    width: 800px;
+    height: 200px;
+    border: 5px solid crimson;
+    padding: 20px;
+    margin: 5px;
+    display: block;
+}

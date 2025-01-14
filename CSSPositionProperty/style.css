@@ -1,0 +1,35 @@
+.container {
+    background-color: aquamarine;
+    border: 10px solid crimson;
+    position: relative;
+    height: 5000px; /* Sufficient height for scrolling */
+}
+
+img {
+    margin: 5px;
+}
+
+.image1 {
+    position: sticky;
+    top: 20px; /* Image1 will stick 20px from the top while scrolling */
+}
+
+.image2 {
+    position: relative;
+    top: 50px;
+    right: 50px;
+}
+
+.image3 {
+    position: absolute;
+    top: 200px;
+}
+
+.image4 {
+    position: fixed;
+}
+
+.container2 {
+    height: 5000px;
+    background-color: aqua;
+}
