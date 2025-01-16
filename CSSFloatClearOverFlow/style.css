@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin-left: 1px;
+    border: solid black;
+}
+
+#image1 {
+    margin-right: 10px;
+    float: right;
+    clear: right;
+}
+
+#image2 {
+    margin-right: 10px;
+    float: right; 
+    clear: right;
+}
+
+#image3 {
+    margin-right: 10px;
+    float: right;
+    clear: right;
+}
+
+p {
+    background-color: aquamarine;
+    font-size: 30px;
+    border: 3px solid salmon; /* Corrected border property */
+    margin: 10px;
+    padding: 10px;
+    text-align: justify; /* Optional: Makes the text aligned neatly */
+}
