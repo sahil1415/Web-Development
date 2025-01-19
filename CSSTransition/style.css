@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+    background-color: aliceblue;
+    height: 800px;
+}
+
+#box1{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    margin: 3px;
+    padding: 3px;
+    background-color: blue;
+    
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 100ms;
+    transition-timing-function: linear;
+}
+
+#box1:hover{
+    height: 600px;
+    width: 600px;
+    background-color: crimson;
+}
+
+#text1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+/* Add transition only on hover */
+#text1:hover{
+    font-size: 40px;
+    font-family: cursive;
+    transition-delay: 100ms; /* Delay applied here for smooth effect */
+}

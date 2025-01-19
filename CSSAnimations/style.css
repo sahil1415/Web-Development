@@ -1,0 +1,63 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+    background-color: antiquewhite;
+    height: 800px;
+    /* width: 800px; */
+}
+
+#box1{
+    border: 3px solid black;
+    margin: 3px;
+    padding: 3px;
+    background-color: aqua;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    animation-name: rightMovement;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes rightMovement {
+    from{
+        top : 0;
+        left: 0;
+    }
+    to{
+        top : 0;
+        left: 1200px;
+    }    
+}
+
+#box2{
+    border: 3px solid black;
+    margin: 3px;
+    padding: 3px;
+    background-color: aqua;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    animation: leftMovement 5s linear 1s infinite alternate;
+    animation-delay: 1s;
+}
+@keyframes leftMovement {
+    from{
+        top: 400px;
+        left: 1200px;
+    }
+    to{
+        top: 400px;
+        left: 0px;
+    }
+}
