@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    /* background: #28518a; */
+    background: #2a2832;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 600px;
+    /* margin: 10px; */
+    padding: 10px;
+    /* background: #2a2832; */
+    background: #515365;
+    /* background: #22267b; */
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 2em;
+    padding: 10px;
+    color: black;
+}
+h2{
+    font-size: 1.25rem;
+    padding: 10px;
+    color: black;
+}
+
+#countDown{
+    padding: 10px;
+    display: flex;
+    /* flex-direction: column;  it is used to change the direction of main axis by default it is row*/ 
+    flex-wrap: wrap; /* It is used to wrap childrens of the container so that they do not overflow*/
+    /* align-items: center; */
+    justify-content: space-around;
+    
+}
+
+#countDown div{
+    text-align: center;
+    /* background-color: rgb(215, 195, 195); */
+    background: #8784a0;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+span{
+    font-size: xx-large;
+}
+
+
+.progressContainer{
+    /* background-color: azure; */
+    background: #8784a0;
+    border-radius: 5px;
+    /* padding: 10px; */
+    width: 100%;
+    height: 10px;
+    overflow: hidden;  /*hides any content that overflows the container dimension*/
+}
+
+#progressBar{
+    background-color: rgb(146, 193, 66);
+    width: 0%;
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+}
