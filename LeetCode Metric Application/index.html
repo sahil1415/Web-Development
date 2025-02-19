@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LeetCode Metric</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>LeetCode Metric</h1>
+        <div class="userContainer">
+            <p>Enter your username below - </p>
+            <div class="userInputContainer">
+                <input type="=text" placeholder="UserName" id="userInput">
+                <button id="searchButton">Search</button>
+            </div>
+        </div>
+
+        <div class="statsContainer">
+            <div class="progress">
+                <div class="progressItems">
+                    <div class="easyProgress circle">
+                        <!-- /* Keeping the text outside the span allow use to update progress number without affecting the label easy*/ -->
+                        <span id="easyLabel"></span>
+                        <p>Easy</p>
+                    </div>
+                </div>
+                <div class="progressItems">
+                    <div class="mediumProgress circle">
+                        <span id="mediumLabel"></span>
+                        <p>Medium</p>
+                    </div>
+                </div>
+                <div class="progressItems">
+                    <div class="hardProgress circle">
+                        <span id="hardLabel"></span>
+                        <p>Hard</p>  
+                    </div>
+                </div>
+            </div>
+
+            <div class="statsCard">
+                <!-- <div id="submission">
+
+                </div>
+                <div id="acceptance"></div>
+                <div id="ranking"></div>
+                <div id="reputation"></div> -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
